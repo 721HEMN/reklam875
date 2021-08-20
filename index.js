@@ -10,7 +10,7 @@ if (message.content === 'setup') {
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
-message.member.voiceChannel.join() 
+message.member.voiceChannel.join(877603234263482388) 
 
 .then(connection => { 
 
@@ -58,9 +58,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(`  https://discord.gg/kq4KWJnBaw`) ///Link Server Never ///RaWeN
+  message.author.send(` https://discord.gg/6UVtqFzPgB `) ///Link Server Never ///RaWeN
     
-  client.channels.get("ID Channel").send(
+  client.channels.get("877603220753612811").send(
 `> RaWeN Up | By: <@${message.author.id}> 
 ${message.content}`)
 }
@@ -79,4 +79,4 @@ client.user.setGame(`Send Me Linke Your Server | RaWeN Up`)
 
 
 
-client.login("");///FiiX ///Token
+client.login("ODc4MDA4MzA0MDA0MTI4Nzk4.YR669A.s8eJ-7zDIfriLp2nIl3tZVNDAmg");///FiiX ///Token
