@@ -10,7 +10,7 @@ if (message.content === 'setup') {
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
-message.member.voiceChannel.join(877603234263482388) 
+message.member.voiceChannel.join() 
 
 .then(connection => { 
 
